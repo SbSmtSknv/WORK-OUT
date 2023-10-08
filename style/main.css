@@ -1,0 +1,451 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 65px 138px;
+  margin: 0;
+  background-color: #1F1C26;
+  width: 1440px;
+  max-width: 1440px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+}
+
+span {
+  padding: 0;
+}
+
+H1,H2,H3,H4 {
+  padding: 0;
+  margin: 0;
+}
+
+header .menu_wrap {
+  display: flex;
+  gap: 342px;
+}
+
+header .menu_wrap .menu {
+  padding-top: 50px;
+  display: flex;
+}
+
+header .menu_wrap .menu_gap {
+  gap: 30px;
+}
+
+header .menu_wrap .menu ul {
+  display: flex;
+  color: white;
+}
+
+header .menu_wrap .menu ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: #59253E;
+  text-decoration-thickness: 5px;
+}
+
+.menu ul a {
+  color: white;
+}
+
+header .menu_wrap .menu_log {
+  padding-left: 40px;
+}
+
+header .menu_wrap .menu ul button {
+  background-color: #1F1C26;
+  font-size: 14px;
+  padding: 2px 7.5px;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  transition: all 1ms ease .01s;
+}
+
+header .menu_wrap .menu ul button:hover {
+  background-color: #F24B88;
+} 
+
+
+.first_block_text-block h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  height: 70px;
+}
+
+.first_block_text-block h2 {
+  color: white;
+  font-size: 29px;
+  font-weight: 500;
+  height: 22px;
+}
+
+.first_block_text-block p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 392px;
+  color: #fff;
+  opacity: 36%;
+  padding: 83px 0 65px;
+}
+
+.first_block_btn-block {
+  display: flex;
+  gap: 51px;
+}
+
+.first_block_btn-block button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #F24B88;
+  padding: 25px 22px;
+  border: none;
+  width: 190px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.left_wing_box_href {
+  display: flex;
+}
+
+.left_wing_header_woman img{
+  border-radius: 30px;
+}
+
+.left_wing_header_box {
+  width: 365px;
+  height: 210px;
+  border-radius: 10px;
+  background: #332F3C;
+  
+}
+
+.left_wing_header_box span {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.left_wing_header_box p {
+  color: white;
+  font-size: 14px;
+  opacity: 36%;
+  font-weight: 400;
+  padding: 15px 0;
+}
+
+.left_wing_box_href button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  height: 26px;
+  margin: 8px 13px;
+}
+
+.left_wing_header_box {
+  padding: 25px 27px;
+}
+
+.box_header_first {
+  margin-bottom: 20px;
+}
+
+.first_block_left_wing {
+  display: flex;
+  gap: 30px;
+}
+
+.first_block_wrap {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+
+.training-wrap {
+  margin-top: 150px;
+}
+
+.training_text h2,
+.team_text h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.training_text span, 
+.team_text span {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: #59253E;
+}
+
+.training_box h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 0  5px;
+}
+
+.training_box p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.36);
+  padding-bottom: 20px;
+}
+
+.see_more_button {
+  font-size: 14px;
+  font-weight: 600;
+  width: 98px;
+  height: 35px;
+  border: none;
+  background-color: #F24B88;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.training_boxs_wrap {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.team_wrap {
+  margin-top: 150px;
+}
+
+.team_box img {
+  width: 261px;
+  height: 174px;
+}
+
+.team_box h3 {
+  color: #0D0D0D;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 19px 0 0 12px;
+  height: 36px;
+}
+
+.team_box span {
+  color: #332F3C;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: italic;
+  padding-left: 12px;
+  color: #332F3C;
+}
+
+.team_box div p {
+  color: #0D0D0D;
+  opacity: 36%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.team_box-main {
+  margin-top: -6px;
+  width: 261px;
+  height: 230px;
+  background-color: #f2f2f2;
+}
+
+.team_button {
+  margin: 72px 0 0 151px;
+}
+
+.team_box_wrap {
+  display: flex;
+  gap: 40px;
+  margin-top: 102px;
+}
+
+.discover_wrap {
+  margin-top: 150px;
+  width: 1164px;
+  height: 382px;
+  background-color: #332F3C;
+} 
+
+.discover_wrap-main {
+  padding: 66px 134px;
+}
+
+.discover_h_text {
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: 21%;
+  color: white;
+}
+
+.discover_h_text_wrap {
+  display: flex;
+  gap: 30px;
+}
+
+.discover_lorem {
+  font-size: 13px;
+  font-weight: 400;
+  width: 664px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.discover_button {
+  display: flex;
+  gap: 30px;
+}
+
+.discover_butn {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 200px;
+  height: 70px;
+  margin-top: 70px;
+}
+
+.discover_button_first {
+  background-color: #F24B88;
+  margin-left: 200px;
+}
+
+.discover_button_second {
+  background-color: #1F1C26;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+footer .container {
+  padding: 30px 0 15px;
+  display: flex;
+}
+
+.foot_right_wing p {
+  width: 405px;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 15px 0;
+}
+
+.messangers_box {
+  display: flex;
+  gap: 10px;
+}
+
+.foot_wings h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.foot_wings li a {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.foot_wings li { 
+  padding-top: 15px;
+}
+
+.foot_left_middle_wing {
+  margin: 0 54px 0 6px;
+  width: 117px;
+}
+
+.foot_right_middle_wing {
+  margin-right: 135px;
+  width: 125px;
+}
+
+.foor_right_wing {
+  width: 322px;
+}
+
+.foor_right_wing input {
+  color: #7B7B7B;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 26px;
+  width: 321px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin: 25px 0 15px;
+}
+
+.foor_right_wing button {
+  background-color: #F24B88;
+  font-size: 14px;
+  font-weight: 600;
+  width: 98px;
+  height: 36px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer hr {
+  color: #f2f2f2;
+}
+
+.copyright {
+  display: flex;
+  gap: 3px;
+}
+
+.copyrights {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.copyright img {
+  margin-top: 2px;
+}
